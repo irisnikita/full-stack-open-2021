@@ -1,0 +1,6 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+Browser update new note in DOM then
+send request to server
+end note
+server-->browser: {"message":"note created"}
